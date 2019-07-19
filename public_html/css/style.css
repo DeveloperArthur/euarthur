@@ -1,19 +1,7 @@
-#footer{
-    clear:both;
-    background-color:white;
-    height:20px;
-    text-align:center;
-    padding: 10px;
-    position:absolute;
-    bottom:0;
-    width:100%;
-}
 body{
     height:100%;
     background-color:black;
-}
-
-#corpo{
+    border: 1px solid white;
     text-align: center;
 }
 
@@ -21,9 +9,14 @@ body{
     color: white;
     margin:0;
     padding:0;
-    font-family:"Century";
+    font-family:"Calibri";
 }
 
-html{
-    height:100%;
+footer {
+    padding: 10px;
+    background-color: white;
+}
+
+p{
+    color: black
 }
