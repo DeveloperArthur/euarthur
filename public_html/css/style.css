@@ -12,14 +12,15 @@ body{
     font-family:"Calibri";
 }
 
+a{
+    color: #1E90FF
+}
+
 footer {
     padding: 10px;
     background-color: white;
 }
 
-p{
-    color: black
-}
 .center{
     width:200px;
     margin:0 auto;
@@ -28,4 +29,64 @@ p{
 
 ul{
     list-style-type: square;
+}
+
+.botao{
+    color: #f1f1f1;
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: #0098da;
+    font-size: .9em;
+    border-radius: 7px;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    width: 100%;
+}
+
+nav ul li{
+    text-align: center;
+    width: 100%;
+    padding: 1%;
+}
+
+nav ul li a{
+    display: inline-block;
+    padding: 10px 0;
+    width: 100%;
+    text-decoration: none;
+    color: black;
+}
+
+nav ul :hover{
+    background-color: black;
+    color: white;
+}
+
+/*media query*/
+@media screen and (min-width: 768px){
+
+    /* Navegação */
+
+    nav{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    nav ul{
+        flex-direction: row;
+        width: 70%;
+    }
 }
