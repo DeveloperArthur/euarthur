@@ -1,15 +1,15 @@
 body{
     height:100%;
-    background-color:black;
+    background-color:white;
     border: 1px solid white;
     text-align: center;
 }
 
 *{
-    color: white;
+    color: #4d4d4d;;
     margin:0;
     padding:0;
-    font-family:"Calibri";
+    font-family: Calibri, Arial, sans-serif;
 }
 
 a{
@@ -18,7 +18,7 @@ a{
 
 footer {
     padding: 10px;
-    background-color: #CDC5BF;
+    background-color: #0098da;
 }
 
 .center{
@@ -32,10 +32,10 @@ ul{
 }
 
 .botao{
-    color: black;
+    color: white;
     text-decoration: none;
     padding: 10px 30px;
-    background-color: #CDC5BF;
+    background-color: #0098da;
     font-size: .9em;
     border-radius: 7px;
 }
@@ -44,7 +44,7 @@ nav{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #CDC5BF;
+    background-color: #0098da;
 }
 
 nav ul {
@@ -67,12 +67,12 @@ nav ul li a{
     padding: 10px 0;
     width: 100%;
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 nav ul :hover{
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: #0098da;
 }
 
 /*media query*/
