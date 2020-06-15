@@ -5,17 +5,17 @@ Um projeto desenvolvido com o objetivo de falar um pouco sobre mim, mostrar meus
 
 Aplicação para configurar e aplicar assinatura de emails nas contas do Gmail dos usuários de G Suite.
 
-#DOCUMENTAÇÃO
+# DOCUMENTAÇÃO
 
 https://backend-dev-dot-assinaturaapp-172718.uc.r.appspot.com/swagger-ui.html
 
-#ARQUITETURA E TECNOLOGIAS
+# ARQUITETURA E TECNOLOGIAS
 
-#####G Suite
+##### G Suite
 
 * Reseller API
 
-#####Google Cloud Platform
+##### Google Cloud Platform
 
 * App Engine
 
@@ -23,7 +23,7 @@ https://backend-dev-dot-assinaturaapp-172718.uc.r.appspot.com/swagger-ui.html
 
 * Cloud Storage
 
-#####Linguagens e Frameworks
+##### Linguagens e Frameworks
 
 * Java 8
 
@@ -35,17 +35,17 @@ https://backend-dev-dot-assinaturaapp-172718.uc.r.appspot.com/swagger-ui.html
 
 * JUnit
 
-#AMBIENTES
+# AMBIENTES
 
-#####DESENVOLVIMENTO
+##### DESENVOLVIMENTO
 
 * App Engine: backend-dev
 
-#####HOMOLOGAÇÃO
+##### HOMOLOGAÇÃO
 
 * App Engine: backend-homolog
 
-#####PRODUÇÃO
+##### PRODUÇÃO
 
 * App Engine: backend-prod
 
