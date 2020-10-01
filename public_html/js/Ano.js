@@ -9,7 +9,13 @@ function getAnoAtual(){
 }
 
 function getMeusAnosNaTI(){
-	var anoQueComecei = 2017;
-	meusAnosNaTI = getAnoAtual() - anoQueComecei;
-	document.getElementById('meusAnosNaTI').innerHTML = meusAnosNaTI + " anos";
+	if(estaNaPaginaPrincipal()){
+		var anoQueComecei = 2017;
+		meusAnosNaTI = getAnoAtual() - anoQueComecei;
+		document.getElementById('meusAnosNaTI').innerHTML = meusAnosNaTI + " anos";
+	}
+}
+
+function estaNaPaginaPrincipal(){
+	return document.URL.includes("index.html")
 }
