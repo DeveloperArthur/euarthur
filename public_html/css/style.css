@@ -1,96 +1,13 @@
-body{
-    height:100%;
-    background-color:white;
-    border: 1px solid white;
-    text-align: center;
-}
-
-*{
-    color: #4d4d4d;;
-    margin:0;
-    padding:0;
-    font-family: Calibri, Arial, sans-serif;
-}
-
-a{
-    color: #1E90FF
-}
-
 footer {
     padding: 10px;
-    background-color: #0098da;
-}
-
-.center{
-    width:200px;
-    margin:0 auto;
-    text-align:left;
-}
-
-ul{
-    list-style-type: square;
-}
-
-.botao{
-    color: white;
-    text-decoration: none;
-    padding: 10px 30px;
-    background-color: #0098da;
-    font-size: .9em;
-    border-radius: 7px;
-}
-
-nav{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #0098da;
-}
-
-nav ul {
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;   
-    width: 100%;
-}
-
-nav ul li{
-    text-align: center;
-    width: 100%;
-    padding: 1%;
-}
-
-nav ul li a{
-    display: inline-block;
-    padding: 10px 0;
-    width: 100%;
-    text-decoration: none;
-    color: white;
-}
-
-nav ul :hover{
-    background-color: white;
-    color: #0098da;
-}
-
-/*media query*/
-@media screen and (min-width: 768px){
-
-    /* Navegação */
-
-    nav{
-        flex-direction: row;
-        justify-content: space-around;
-    }
-
-    nav ul{
-        flex-direction: row;
-        width: 70%;
-    }
+    background-color: #f8f9fa;
 }
 
 html{
     scroll-behavior: smooth;
+}
+
+#tecnologias {
+	margin-left: 600px;
+	margin-right: 600px;
 }
