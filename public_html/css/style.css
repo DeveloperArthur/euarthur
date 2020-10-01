@@ -8,6 +8,24 @@ html{
 }
 
 #tecnologias {
-	margin-left: 600px;
-	margin-right: 600px;
+	padding: 15px;
+	max-width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#tecnologias ul {
+	display: grid;
+	gap: 20px;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+#tecnologias ul li.list-group-item:last-child {
+	border-width: 0 0 1px;
+}
+
+@media(max-width: 600px){
+	#tecnologias ul {
+		grid-template-columns: 1fr 1fr;
+	}
 }
