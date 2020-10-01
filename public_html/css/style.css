@@ -24,48 +24,8 @@ html{
 	border-width: 0 0 1px;
 }
 
-#imgMeusCertificados {
-	max-width: 600px;
-}
-
-#imgZero1 {
-	max-width: 600px;
-}
-
-#imgRankMaratona {
-	max-width: 600px;
-}
-
-#imgUri {
-	max-width: 600px
-}
-
-#imgPerifacode {
-	max-width: 600px;
-}
-
 @media(max-width: 600px){
 	#tecnologias ul {
 		grid-template-columns: 1fr 1fr;
-	}
-	
-	#imgMeusCertificados{
-		height:300px;
-	}
-	
-	#imgZero1 {
-		max-width: 300px
-	}
-	
-	#imgRankMaratona {
-		max-width: 300px;
-	}
-	
-	#imgUri {
-		max-width: 300px
-	}
-	
-	#imgPerifacode {
-		max-width: 300px;
 	}
 }
