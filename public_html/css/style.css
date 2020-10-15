@@ -28,4 +28,24 @@ html{
 	#tecnologias ul {
 		grid-template-columns: 1fr 1fr;
 	}
+	
+	table#certificados thead{
+		display: none;
+	}
+
+	table#certificados td, #certificados th{
+		display: block;
+		border: none;
+		padding: 5px;
+		text-align: center;
+	}
+
+	table#certificados tr{
+		padding: 20px 10px;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		border-style: solid;
+		border-color: rgb(180, 180, 180);
+		border-width: 1px 0px 0px 0px;
+	}
 }
