@@ -1,43 +1,4 @@
-<script src="js/Ano.js"></script>
 
-<!-- NAV -->
-<nav id="nav" class="navbar navbar-expand-lg navbar-light bg-light">
-    <!-- NAV DESKTOP -->
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item active">
-                <a class="nav-link" href="index.html">Tela principal</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="certificadosArthur.html">Meus certificados</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="https://arthur-almeida.medium.com/">Artigos publicados</a>
-            </li>
-        </ul>
-    </div>
-
-    <!-- NAV MOBILE -->
-    <div class="col-10 text-left d-md-none">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01"
-                aria-controls="navbarSupportedContent">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-    </div>
-    <div class="collapse navbar" id="navbarColor01">
-        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item active">
-                <a class="nav-link" href="index.html">Tela principal</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="certificadosArthur.html">Meus certificados</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="https://medium.com/@arthur.almeida">Artigos publicados</a>
-            </li>
-        </ul>
-    </div>
-</nav>
 
 <br>
 
